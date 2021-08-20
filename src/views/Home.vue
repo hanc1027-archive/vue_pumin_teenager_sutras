@@ -3,16 +3,16 @@
     <h3>【普民精舍線上青年班-普門品及大悲咒共修】</h3>
     <ul class="nav justify-content-center" style="padding: auto; cursor:pointer">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" @click="change_web(functions_url_obj['sign_01'])">普門品誦持部數-登記</a>
+            <a class="nav-link active custom-border" aria-current="page" @click="change_web(functions_url_obj['sign_01'])">普門品誦持部數-登記</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" @click="change_web(functions_url_obj['sign_02'])">大悲咒誦持部數-登記</a>
+            <a class="nav-link active custom-border" aria-current="page" @click="change_web(functions_url_obj['sign_02'])">大悲咒誦持部數-登記</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" @click="change_web(functions_url_obj['query_01'])">普門品-查詢</a>
+            <a class="nav-link active custom-border" aria-current="page" @click="change_web(functions_url_obj['query_01'])">普門品-查詢</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" @click="change_web(functions_url_obj['query_02'])">大悲咒-查詢</a>
+            <a class="nav-link active custom-border" aria-current="page" @click="change_web(functions_url_obj['query_02'])">大悲咒-查詢</a>
         </li>
     </ul>
 
@@ -47,3 +47,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.custom-border{
+  margin: 2mm;
+  border: 1mm rgb(0, 179, 255) solid;
+}
+</style>
