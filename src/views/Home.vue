@@ -37,9 +37,9 @@
           >大悲咒-查詢</a
         >
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <router-link to="/pu" :class= "functions_url_obj['query_02']['isSelect']? 'nav-link active custom-border selected':'nav-link active custom-border'">普門品經文</router-link>
-      </li>
+      </li> -->
     </ul>
 
     <center>
