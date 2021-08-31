@@ -108,7 +108,7 @@ export default {
   margin: 2mm;
   border: 1mm #febd94 solid;
 }
-.ebook-border:hover {20
+.ebook-border:hover {
   background-color: #94e7fe;
 }
 </style>
