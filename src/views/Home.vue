@@ -9,6 +9,16 @@
         <a href="https://online.fliphtml5.com/gtssx/jpoe/#p=1" target="_blank" class="nav-link active ebook-border">大悲普現-電子書</a>
       </li>
       <li class="nav-item">
+        <router-link to="/pu" class="nav-link active ebook-border">普門品(網頁版)</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link to="/da" class="nav-link active ebook-border">大悲咒(網頁版)</router-link>
+      </li></ul>
+      <ul
+      class="nav justify-content-center"
+      style="padding: auto; cursor: pointer"
+    >
+      <li class="nav-item">
         <a
           :class= "functions_url_obj['sign_01']['isSelect']? 'nav-link active custom-border selected':'nav-link active custom-border'"
           aria-current="page"
@@ -39,9 +49,6 @@
           @click="change_web('query_02')"
           >大悲咒-查詢</a
         >
-      </li>
-      <li class="nav-item">
-        <router-link to="/pu" :class= "functions_url_obj['query_02']['isSelect']? 'nav-link active custom-border selected':'nav-link active custom-border'">普門品經文</router-link>
       </li>
     </ul>
 

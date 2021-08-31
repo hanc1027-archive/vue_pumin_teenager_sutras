@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Pu from '../views/Pu.vue'
+import Da from '../views/Da.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/pu',
     name: 'Pu',
     component: Pu
+  },
+  {
+    path: '/da',
+    name: 'Da',
+    component: Da
   },
 ]
 
