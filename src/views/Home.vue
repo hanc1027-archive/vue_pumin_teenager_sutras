@@ -6,6 +6,9 @@
       style="padding: auto; cursor: pointer"
     >
       <li class="nav-item">
+        <a href="https://online.fliphtml5.com/gtssx/jpoe/#p=1" target="_blank" class="nav-link active ebook-border">大悲普現-電子書</a>
+      </li>
+      <li class="nav-item">
         <a
           :class= "functions_url_obj['sign_01']['isSelect']? 'nav-link active custom-border selected':'nav-link active custom-border'"
           aria-current="page"
@@ -100,5 +103,12 @@ export default {
 }
 .selected {
   background-color: #febd94;
+}
+.ebook-border {
+  margin: 2mm;
+  border: 1mm #febd94 solid;
+}
+.ebook-border:hover {
+  background-color: #94e7fe;
 }
 </style>
