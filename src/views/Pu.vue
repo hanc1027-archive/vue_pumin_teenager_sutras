@@ -89,7 +89,7 @@ export default {
     width:10%;
     /* height:400px; */
     text-align:center;
-    line-height:550px;
+    line-height:1100px;
     float:left;
 }
 #sidebar_right{
@@ -97,7 +97,7 @@ export default {
     width:10%;
     /* height:400px; */
     text-align:center;
-    line-height:550px;
+    line-height:1100px;
     float:right;
 }
 #content{
@@ -105,13 +105,16 @@ export default {
     /* margin-right:120px; */
     width:80%;
     size: 20px;
-    height:550px;
+    height:1100px;
     /* height:400px; */
     /* background-color:#F2FFF2; */
     /* line-height:400px; */
     /* max-width: 40rem */
 }
-p{
+.card-text{
     text-align:left;
+    font-size:25px;
+    font-family: 標楷體;
 }
+
 </style>
